@@ -1,4 +1,4 @@
-# 💰 FinCoach — AI Financial Coach
+# FinCoach — AI Financial Coach
 
 > Application web de finances personnelles : suivez vos dépenses, importez vos relevés, fixez des objectifs d'épargne et recevez des recommandations financières générées par IA.
 
@@ -6,7 +6,7 @@ FinCoach aide un utilisateur à reprendre le contrôle de son budget. Les transa
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - **Authentification** sécurisée (JWT + bcrypt)
 - **Tableau de bord** : KPIs du mois (revenus, dépenses, solde, taux d'épargne), graphiques (camembert par catégorie, évolution mensuelle)
@@ -20,7 +20,7 @@ FinCoach aide un utilisateur à reprendre le contrôle de son budget. Les transa
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌──────────────┐      REST/HTTP     ┌──────────────┐     Sequelize     ┌─────────────────┐
@@ -73,7 +73,7 @@ FinCoach aide un utilisateur à reprendre le contrôle de son budget. Les transa
 
 ---
 
-## 🚀 Démarrage rapide
+##  Démarrage rapide
 
 ### Prérequis
 - **Node.js** ≥ 18
@@ -123,7 +123,7 @@ docker-compose up --build
 
 ---
 
-## 🔐 Variables d'environnement
+##  Variables d'environnement
 
 `backend/.env` (à ne **jamais** committer) :
 
@@ -181,14 +181,10 @@ cd frontend && npm test
 
 | Membre | Rôle |
 |--------|------|
-| **Wassim Rhilane** | Dashboard, analytics, modèle ML, intégration finale |
+| **Wassim Rhilane** | DataBase, Dashboard, analytics, modèle ML, intégration finale |
 | **Mohamed Hajita** | Backend Express, auth JWT, IA, chatbot, sécurité |
 | **Ilyasse Dbiza** | Service ML Flask, endpoint `/predict` |
 | **Israe El Hilali** | UI, landing page, responsive, thème clair/sombre |
 | **Oumayma Mektane** | Tests, QA, documentation, pages documents/profil |
 
 ---
-
-## 📄 Licence
-
-Projet académique — usage éducatif.
