@@ -114,10 +114,6 @@ pip install -r requirements.txt
 python app.py           # http://localhost:5001
 ```
 
-### 6. Docker (optionnel)
-```bash
-docker-compose up --build
-```
 
 > 💡 La base de données est hébergée sur **Supabase** — aucun PostgreSQL local n'est nécessaire.
 
@@ -143,7 +139,7 @@ docker-compose up --build
 
 ---
 
-## 🔌 Aperçu de l'API
+##  Aperçu de l'API
 
 Toutes les routes (sauf auth) requièrent l'en-tête `Authorization: Bearer <token>`.
 
@@ -165,7 +161,7 @@ Service ML : `POST /predict` `{ "description": "..." }` → `{ "category": "..."
 
 ---
 
-## 🧪 Tests
+##  Tests
 
 ```bash
 # Backend (Jest)
